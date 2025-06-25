@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+sentence-transformers
+transformers
+faiss-cpu
+python-docx
+azure-ai-inference
+NOTE:Replace the paths of generative models accordingly.
