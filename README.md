@@ -18,15 +18,18 @@ This is a Streamlit app that lets users upload PDF files and ask questions based
 - Answer generation using Grok Mini
 - Export answers as TXT or DOCX
 
-## 📦 Installation
-
-```bash
-pip install -r requirements.txt
-streamlit run app.py
-
 ## 📜 License
 
 This project is under a **custom read-only license**.  
 You may view and copy the code for **personal or educational use only**.  
 You may **not modify, redistribute, or use commercially**.  
 See the LICENSE file for more details.
+
+
+## 📦 Installation
+```bash
+pip install -r requirements.txt
+streamlit run app.py
+
+
+
