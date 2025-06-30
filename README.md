@@ -23,3 +23,10 @@ This is a Streamlit app that lets users upload PDF files and ask questions based
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
+
+## 📜 License
+
+This project is under a **custom read-only license**.  
+You may view and copy the code for **personal or educational use only**.  
+You may **not modify, redistribute, or use commercially**.  
+See the LICENSE file for more details.
