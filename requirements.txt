@@ -5,4 +5,4 @@ transformers
 faiss-cpu
 python-docx
 azure-ai-inference
-NOTE:Replace the paths of generative models accordingly.
+NOTE:Check carefully and replace the paths of generative AI models accordingly.
