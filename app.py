@@ -15,7 +15,7 @@ model = "xai/grok-3-mini"
 token = "<YOUR_TOKEN>"
 
 embedder = SentenceTransformer("all-MiniLM-L6-v2")
-tokenizer = AutoTokenizer.from_pretrained(r"F:\models\flan-t5-base")
+tokenizer = AutoTokenizer.from_pretrained("google/flan-t5-base")
 
 def extract_text_from_pdf(file):
     doc = fitz.open(stream=file.read(), filetype="pdf")
