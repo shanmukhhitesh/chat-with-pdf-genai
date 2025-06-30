@@ -10,13 +10,11 @@ env/
 venv/
 
 # Jupyter Notebook checkpoints
-.ipynb_checkpoints
+.ipynb_checkpoints/
 
-# PyCharm
-.idea/
-
-# VSCode
-.vscode/
+# IDEs
+.idea/              # PyCharm
+.vscode/            # VSCode
 
 # macOS
 .DS_Store
@@ -26,11 +24,30 @@ Thumbs.db
 ehthumbs.db
 desktop.ini
 
-# Model and cache directories
+# Python packaging
+*.egg-info/
+dist/
+build/
+
+# Model and weight files (large binary)
 *.safetensors
 *.bin
 *.pth
 *.pt
 
-# Streamlit
+# Streamlit secrets (contains API keys)
 .streamlit/secrets.toml
+
+# Logs and cache
+*.log
+__pypackages__/
+*.cache/
+
+# Environment/config
+.env
+*.env
+
+# Optional: exclude test or debug output
+*.out
+*.tmp
+*.bak
