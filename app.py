@@ -72,7 +72,6 @@ def ask_with_grok(context, question):
         ],
         temperature=1.0,
         top_p=1.0,
-        max_tokens=1000,
         model=model,
     )
     return response.choices[0].message.content
